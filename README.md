@@ -15,6 +15,12 @@
   mongodb://localhost:27017/entriesdb
 ```
 
+* Instalar modulos de node y levantar aplicacion
+```
+  npm install || yarn install
+  npm run dev || yarn dev
+```
+
 # Llenar la base de datos con informacion de pruebas
 Llamar api:
 ```
