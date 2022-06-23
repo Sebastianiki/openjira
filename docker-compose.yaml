@@ -1,0 +1,9 @@
+version: '3'
+services:
+  entriesdb:
+    image: mongo:latest
+    container_name: entires-database
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo:/data/db
